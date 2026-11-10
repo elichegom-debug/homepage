@@ -1,0 +1,21 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0f172a; /* Tailwind slate-900 */
+    color: #f8fafc; /* Tailwind slate-50 */
+}
+.code-font {
+    font-family: 'Fira Code', monospace;
+}
+/* 슬라이더 트랜지션 */
+.slide {
+    transition: opacity 0.5s ease-in-out;
+}
+/* 터미널 스타일 윈도우 */
+.terminal-window {
+    box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);
+}
+.syntax-keyword { color: #c678dd; }
+.syntax-type { color: #e5c07b; }
+.syntax-func { color: #61afef; }
+.syntax-string { color: #98c379; }
+.syntax-comment { color: #7f848e; font-style: italic; }
